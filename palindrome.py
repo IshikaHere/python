@@ -4,9 +4,10 @@ text = str(input())
 rev_text = " "
 
 for j in text:
-  rev_text +=j
+  rev_text = j + rev_text
   print(rev_text)
 if text == rev_text:
   print("palindrome")
 else:
   print("not palindrome")
+
